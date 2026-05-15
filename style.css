@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+
+  background: linear-gradient(
+    135deg,
+    #5f4bff,
+    #4f7cff,
+    #41c7ff
+  );
+
+  color: white;
+
+  min-height: 100vh;
+
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+
+  padding: 18px 5%;
+
+  background: rgba(0, 0, 0, 0.15);
+
+  backdrop-filter: blur(8px);
+
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
