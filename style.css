@@ -210,3 +210,85 @@ section p {
 
   max-width: 900px;
 }
+
+.faq-item {
+  width: 100%;
+
+  background: rgba(255,255,255,0.12);
+
+  padding: 25px;
+
+  border-radius: 20px;
+
+  margin-bottom: 20px;
+
+  backdrop-filter: blur(8px);
+}
+
+.faq-question {
+  width: 100%;
+
+  background: transparent;
+
+  color: white;
+
+  border: none;
+
+  text-align: left;
+
+  font-size: 1.1rem;
+
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.faq-answer {
+  margin-top: 15px;
+
+  line-height: 1.7;
+
+  color: rgba(255,255,255,0.9);
+}
+
+form {
+  width: 100%;
+  max-width: 700px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+
+  padding: 16px;
+
+  border: none;
+
+  border-radius: 16px;
+
+  background: rgba(255,255,255,0.15);
+
+  color: white;
+
+  font-size: 1rem;
+
+  outline: none;
+
+  backdrop-filter: blur(10px);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(255,255,255,0.7);
+}
+
+textarea {
+  resize: none;
+
+  min-height: 180px;
+}
