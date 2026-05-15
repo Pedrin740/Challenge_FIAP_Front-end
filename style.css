@@ -292,3 +292,56 @@ textarea {
 
   min-height: 180px;
 }
+
+.integrantes-container {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
+  gap: 25px;
+}
+
+.integrante-card {
+  width: 100%;
+
+  background: rgba(255,255,255,0.12);
+
+  padding: 30px;
+
+  border-radius: 25px;
+
+  text-align: center;
+
+  backdrop-filter: blur(10px);
+
+  transition: 0.3s;
+}
+
+.integrante-card:hover {
+  transform: translateY(-8px);
+}
+
+.integrante-foto {
+  width: 120px;
+  height: 120px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  border: 4px solid white;
+
+  margin-bottom: 20px;
+}
+
+.integrante-card h3 {
+  font-size: 1.5rem;
+
+  margin-bottom: 10px;
+}
+
+.integrante-card p {
+  margin-bottom: 10px;
+}
