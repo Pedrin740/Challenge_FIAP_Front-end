@@ -444,4 +444,57 @@ textarea {
   }
  
 }
+
+@media (max-width: 600px) {
  
+  header {
+    padding: 18px;
+  }
+ 
+  nav {
+    flex-direction: column;
+  }
+ 
+  #menu {
+    width: 100%;
+ 
+    flex-direction: column;
+ 
+    gap: 18px;
+ 
+    margin-top: 15px;
+  }
+ 
+  .hero {
+    min-height: auto;
+ 
+    padding: 60px 20px;
+  }
+ 
+  main {
+    padding: 40px 20px;
+  }
+ 
+  .faq-item,
+  .integrante-card,
+  .modal-content {
+    padding: 22px;
+  }
+ 
+  .integrante-foto {
+    width: 100px;
+    height: 100px;
+  }
+ 
+}
+ 
+@media (min-width: 1600px) {
+ 
+  .hero,
+  main,
+  nav {
+    max-width: 1600px;
+    margin: auto;
+  }
+ 
+}
