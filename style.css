@@ -345,3 +345,36 @@ textarea {
 .integrante-card p {
   margin-bottom: 10px;
 }
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+ 
+  margin-top: 20px;
+}
+ 
+.social-btn {
+  width: 45px;
+  height: 45px;
+ 
+  border-radius: 50%;
+ 
+  background: white;
+ 
+  color: #5f4bff;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  text-decoration: none;
+ 
+  font-size: 1.2rem;
+ 
+  transition: 0.3s;
+}
+ 
+.social-btn:hover {
+  transform: scale(1.1);
+}
